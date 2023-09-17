@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lntext"
+        android:layout_toRightOf="@+id/lnbut"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtname"
+            android:hint="enter name"
+            android:layout_marginBottom="5dp"
+            android:padding="15dp"
+            android:textSize="20sp"
+            android:textColor="#9A0909"
+            android:background="@drawable/bg_activity"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtaddress"
+            android:hint="enter address"
+            android:layout_marginBottom="5dp"
+            android:padding="15dp"
+            android:textSize="20sp"
+            android:textColor="#9A0909"
+            android:background="@drawable/bg_activity"
+            android:textStyle="italic"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtyear"
+            android:hint="enter year"
+            android:layout_marginBottom="10dp"
+            android:padding="15dp"
+            android:textSize="20sp"
+            android:textColor="#9A0909"
+            android:background="@drawable/bg_activity"
+            android:textStyle="italic"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentStart="true"
+        android:id="@+id/lnbut"
+        >
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="UpDate"
+            android:layout_gravity="center"
+            android:textColor="#570A0A"
+            android:backgroundTint="#F3E6E6"
+            android:textSize="20sp"
+            android:id="@+id/btnupdate"
+            android:layout_margin="20dp"
+            android:padding="10dp"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:layout_gravity="center"
+            android:textColor="#570A0A"
+            android:backgroundTint="#F3E6E6"
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:id="@+id/btndelete"
+            android:padding="10dp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
